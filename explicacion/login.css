@@ -1,0 +1,141 @@
+/* diseños globales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#F6F6F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*contenedor*/
+.container{
+    display: flex;
+    flex-direction: row;   
+    width: 70%;
+    height: 80vh;
+    box-shadow: 15px 13px 33px -16px rgba(0,0,0,0.75);
+    border-radius: 50px;
+    
+}
+/*welcome*/
+.welcome{
+    width: 100%;
+    height: 80vh;
+    background-color: #FF4841;
+    border-radius:50px 0px 0px 50px;
+}
+.welcome{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:400;
+    color: white;
+    font-size: 50px;
+}
+.welcome p{
+    color: white;
+    margin-top: 8%;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+.welcome button{
+    margin-top: 8%;
+    width: 40%;
+    height: 7vh;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #FF4841;
+    border: 2px solid white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.welcome button:hover{
+    cursor: pointer;
+}
+/*form*/
+.form{
+    width: 100%;
+    background-color:#FFFFFFFF ;
+    border-radius:0px 50px 50px 0px;
+}
+.form h1{
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 3rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
+.icons{
+    display: flex;
+    margin: 0 auto;
+    height: 4rem;
+    width: 200px;
+    justify-content:space-evenly;
+    font-size: 15px;
+}
+.fab{
+    border: 1px solid gray;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+.fab:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 1s;
+}
+.form p{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.form .box{
+    width: 70%;
+    height: 2.5rem;
+    margin: .5rem;
+    background-color: #EFEFEF;
+    border-style: none;
+    font-size: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 5%;
+    padding: 1rem;
+}
+.form button{
+    width: 40%;
+    height: 7vh;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #FF4841;
+    border: 2px solid white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 25%;
+}
+.form button:hover{
+    cursor: pointer;
+}

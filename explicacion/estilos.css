@@ -1,0 +1,74 @@
+/*
+    GUIA FLEXBOX
+    Display:flex; <----- En el contenedor principal
+
+    Flex Direction: <---- Direccion en la que van a ir ordenados los items del contenedor
+    * row <-- en la misma fila se posicionan
+    *row-reverse <--- de reversa en la misma fila
+    *column <--- se posicionan en una misma columna
+    *column-reverse <-- lo mismo pero de reversa
+    
+    Flex-wrap: <-----  propiedad que hace que los item salten de linea cuando se les acaba el espacio
+    *wrap <--- activa la propiedad
+    *no-wrap <-- desactiva la propiedad
+    *wrap-reverse <----los empuja de forma contraria
+
+    Justify-Content
+    *flex-start <-- se pone al inicio de la fila
+    *flex-end <-- se pone al final de la fila
+    *center <-- se centran los elementos
+    *space-between <-- el espacio se distribuye en los elementos
+    *space-around <-- se distribuye de forma pareja alrededor de todos los elementos, el espacio del borde es solo la mitad
+    *space-evenly <--todos los elementos van a tener el mismo espacio al igual que el borde
+
+    Align-items <-- alinea los elementos en el eje vertical en su linea
+    *flex-start <-- los alinea al inicio del contenedor
+    *flex-end <--los alinea al final
+    *center <-- elementos centrados
+    *stretch <-- valor por defecto 
+
+    Align-content <--los aliena en el eje vertical con respecto al contenedor principal
+          Esta propiedad solo funciona cuando el flex-wrap esta en wrap**
+    * flex-start
+    *center
+    *flex-end
+    *stetch
+    *space-between
+    *space-around
+
+    Flex-flow ("flex-direction","flex-wrap") <-- es una manera de abreviar en una sola linea de codigo el flex-direction y el flex-wrap a la vez 
+
+    ORDER
+    cambia el orden de cada item segun las necesidades
+    ejemplo:
+    order:-1 <-- cambia el item al orden indicado
+
+    Align-self <--- al elemento que le ponemos esta propiedad sera el unico que tendra el efecto, ya que es para cuando queremos que un item tendra un align unico, diferente a los demas items
+
+    TIP:<--- brand <--margin-left_auto;---->nav1 nav2
+
+    Flex-basis <-- define el tamaño del elemento antes que el espacio restante se distribuya
+    *default:auto <---ancho del elemento o contenido minimo
+    *flex-basis:200px <-- la base sera de 200px
+
+    flex-grow <---- factor de crecimiento de los elementos
+    Agarra todo el espacion dispobile.
+
+    (default:0)
+    
+    flex-shrink <--- cuanto se encogen los elementos
+    (default:1) 
+
+    Propiedad Flex
+    Ejemplo:
+    flex: <flex-grow> <flex-shrink> <flex-basis>;
+
+    Agrupa las 3 propiedades en una sola.
+
+    se recomienda usarlo a la vez, por su facilidad.
+    :: opciones::
+    flex:initial   0 1 auto
+    flex:auto      1 1 auto
+    flex:none      0 0 auto
+    flex:1         1 1 0
+    */
